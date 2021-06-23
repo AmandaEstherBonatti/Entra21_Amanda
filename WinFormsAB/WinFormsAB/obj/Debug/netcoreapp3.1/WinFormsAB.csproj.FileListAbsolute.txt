@@ -1,0 +1,15 @@
+C:\Users\Entra21\source\repos\WinFormsAB\WinFormsAB\bin\Debug\netcoreapp3.1\WinFormsAB.exe
+C:\Users\Entra21\source\repos\WinFormsAB\WinFormsAB\bin\Debug\netcoreapp3.1\WinFormsAB.deps.json
+C:\Users\Entra21\source\repos\WinFormsAB\WinFormsAB\bin\Debug\netcoreapp3.1\WinFormsAB.runtimeconfig.json
+C:\Users\Entra21\source\repos\WinFormsAB\WinFormsAB\bin\Debug\netcoreapp3.1\WinFormsAB.runtimeconfig.dev.json
+C:\Users\Entra21\source\repos\WinFormsAB\WinFormsAB\bin\Debug\netcoreapp3.1\WinFormsAB.dll
+C:\Users\Entra21\source\repos\WinFormsAB\WinFormsAB\bin\Debug\netcoreapp3.1\WinFormsAB.pdb
+C:\Users\Entra21\source\repos\WinFormsAB\WinFormsAB\obj\Debug\netcoreapp3.1\WinFormsAB.csprojAssemblyReference.cache
+C:\Users\Entra21\source\repos\WinFormsAB\WinFormsAB\obj\Debug\netcoreapp3.1\WinFormsAB.Form1.resources
+C:\Users\Entra21\source\repos\WinFormsAB\WinFormsAB\obj\Debug\netcoreapp3.1\WinFormsAB.csproj.GenerateResource.cache
+C:\Users\Entra21\source\repos\WinFormsAB\WinFormsAB\obj\Debug\netcoreapp3.1\WinFormsAB.AssemblyInfoInputs.cache
+C:\Users\Entra21\source\repos\WinFormsAB\WinFormsAB\obj\Debug\netcoreapp3.1\WinFormsAB.AssemblyInfo.cs
+C:\Users\Entra21\source\repos\WinFormsAB\WinFormsAB\obj\Debug\netcoreapp3.1\WinFormsAB.csproj.CoreCompileInputs.cache
+C:\Users\Entra21\source\repos\WinFormsAB\WinFormsAB\obj\Debug\netcoreapp3.1\WinFormsAB.dll
+C:\Users\Entra21\source\repos\WinFormsAB\WinFormsAB\obj\Debug\netcoreapp3.1\WinFormsAB.pdb
+C:\Users\Entra21\source\repos\WinFormsAB\WinFormsAB\obj\Debug\netcoreapp3.1\WinFormsAB.genruntimeconfig.cache
