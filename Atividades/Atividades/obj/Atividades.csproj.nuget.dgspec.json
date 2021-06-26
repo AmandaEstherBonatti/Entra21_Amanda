@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Entra21\\Source\\Repos\\AmandaEstherBonatti\\Entra21_Amanda\\Atividades\\Atividades\\Atividades.csproj": {}
+    "C:\\Users\\Entra21\\source\\repos\\AmandaEstherBonatti\\Entra21_Amanda\\Atividades\\Atividades\\Atividades.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Entra21\\Source\\Repos\\AmandaEstherBonatti\\Entra21_Amanda\\Atividades\\Atividades\\Atividades.csproj": {
+    "C:\\Users\\Entra21\\source\\repos\\AmandaEstherBonatti\\Entra21_Amanda\\Atividades\\Atividades\\Atividades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Entra21\\Source\\Repos\\AmandaEstherBonatti\\Entra21_Amanda\\Atividades\\Atividades\\Atividades.csproj",
+        "projectUniqueName": "C:\\Users\\Entra21\\source\\repos\\AmandaEstherBonatti\\Entra21_Amanda\\Atividades\\Atividades\\Atividades.csproj",
         "projectName": "Atividades",
-        "projectPath": "C:\\Users\\Entra21\\Source\\Repos\\AmandaEstherBonatti\\Entra21_Amanda\\Atividades\\Atividades\\Atividades.csproj",
+        "projectPath": "C:\\Users\\Entra21\\source\\repos\\AmandaEstherBonatti\\Entra21_Amanda\\Atividades\\Atividades\\Atividades.csproj",
         "packagesPath": "C:\\Users\\Entra21\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Entra21\\Source\\Repos\\AmandaEstherBonatti\\Entra21_Amanda\\Atividades\\Atividades\\obj\\",
+        "outputPath": "C:\\Users\\Entra21\\source\\repos\\AmandaEstherBonatti\\Entra21_Amanda\\Atividades\\Atividades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Entra21\\AppData\\Roaming\\NuGet\\NuGet.Config",

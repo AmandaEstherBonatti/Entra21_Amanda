@@ -25,12 +25,12 @@ namespace Atividades
 
         private void cotacaoReal_TextChanged(object sender, EventArgs e)
         {
-            cotacao = double.Parse(cotacaoReal.Text);
+            cotacao = double.Parse(txtCotacaoReal.Text);
         }
 
         private void valorDolar_TextChanged(object sender, EventArgs e)
         {
-            dolar = double.Parse(valorDolar.Text);
+            dolar = double.Parse(txtValorDolar.Text);
         }
 
         private void resultado_Click(object sender, EventArgs e)

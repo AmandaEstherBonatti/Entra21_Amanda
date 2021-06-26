@@ -10,5 +10,11 @@
     <Compile Update="Questao11.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Questao12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Questao13.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

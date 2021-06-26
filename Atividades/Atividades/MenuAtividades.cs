@@ -33,7 +33,6 @@ namespace Atividades
 
         private void menu1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
-
           var menuP = new MenuQuestoes1();
            menuP.Show();
         }

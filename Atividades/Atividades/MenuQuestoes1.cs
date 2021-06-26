@@ -22,7 +22,8 @@ namespace Atividades
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            var questao13 = new Questao13();
+            questao13.Show();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -32,7 +33,8 @@ namespace Atividades
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            var questao12 = new Questao12();
+            questao12.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
