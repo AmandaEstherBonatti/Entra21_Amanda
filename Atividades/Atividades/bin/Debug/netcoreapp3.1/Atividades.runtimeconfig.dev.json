@@ -1,8 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Entra21\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Entra21\\.nuget\\packages"
+      "C:\\Users\\AMANDA\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\AMANDA\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ]
   }
 }

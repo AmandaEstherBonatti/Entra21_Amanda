@@ -47,7 +47,7 @@ namespace Atividades
             this.toolStripMenuItem3});
             this.menu3.Location = new System.Drawing.Point(0, 48);
             this.menu3.Name = "menu3";
-            this.menu3.Size = new System.Drawing.Size(800, 24);
+            this.menu3.Size = new System.Drawing.Size(188, 24);
             this.menu3.TabIndex = 0;
             this.menu3.Text = "menuStrip1";
             this.menu3.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menu3_ItemClicked);
@@ -65,7 +65,7 @@ namespace Atividades
             this.toolStripMenuItem2});
             this.menu2.Location = new System.Drawing.Point(0, 24);
             this.menu2.Name = "menu2";
-            this.menu2.Size = new System.Drawing.Size(800, 24);
+            this.menu2.Size = new System.Drawing.Size(188, 24);
             this.menu2.TabIndex = 1;
             this.menu2.Text = "menuStrip2";
             this.menu2.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menu2_ItemClicked);
@@ -83,7 +83,7 @@ namespace Atividades
             this.toolStripMenuItem1});
             this.menu1.Location = new System.Drawing.Point(0, 0);
             this.menu1.Name = "menu1";
-            this.menu1.Size = new System.Drawing.Size(800, 24);
+            this.menu1.Size = new System.Drawing.Size(188, 24);
             this.menu1.TabIndex = 2;
             this.menu1.Text = "Primeira Atividade";
             this.menu1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menu1_ItemClicked);
@@ -100,7 +100,7 @@ namespace Atividades
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(188, 72);
             this.Controls.Add(this.menu3);
             this.Controls.Add(this.menu2);
             this.Controls.Add(this.menu1);
