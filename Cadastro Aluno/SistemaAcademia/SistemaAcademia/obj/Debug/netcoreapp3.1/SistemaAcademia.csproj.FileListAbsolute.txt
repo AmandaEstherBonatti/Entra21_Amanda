@@ -1,0 +1,51 @@
+C:\Users\AMANDA\source\repos\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.csproj.AssemblyReference.cache
+C:\Users\AMANDA\source\repos\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.CadastroAluno.resources
+C:\Users\AMANDA\source\repos\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.MDIAcademia.resources
+C:\Users\AMANDA\source\repos\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.Properties.Resources.resources
+C:\Users\AMANDA\source\repos\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.csproj.GenerateResource.cache
+C:\Users\AMANDA\source\repos\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.AssemblyInfoInputs.cache
+C:\Users\AMANDA\source\repos\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.AssemblyInfo.cs
+C:\Users\AMANDA\source\repos\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.csproj.CoreCompileInputs.cache
+C:\Users\AMANDA\source\repos\SistemaAcademia\SistemaAcademia\bin\Debug\netcoreapp3.1\SistemaAcademia.exe
+C:\Users\AMANDA\source\repos\SistemaAcademia\SistemaAcademia\bin\Debug\netcoreapp3.1\SistemaAcademia.deps.json
+C:\Users\AMANDA\source\repos\SistemaAcademia\SistemaAcademia\bin\Debug\netcoreapp3.1\SistemaAcademia.runtimeconfig.json
+C:\Users\AMANDA\source\repos\SistemaAcademia\SistemaAcademia\bin\Debug\netcoreapp3.1\SistemaAcademia.runtimeconfig.dev.json
+C:\Users\AMANDA\source\repos\SistemaAcademia\SistemaAcademia\bin\Debug\netcoreapp3.1\SistemaAcademia.dll
+C:\Users\AMANDA\source\repos\SistemaAcademia\SistemaAcademia\bin\Debug\netcoreapp3.1\SistemaAcademia.pdb
+C:\Users\AMANDA\source\repos\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.dll
+C:\Users\AMANDA\source\repos\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.pdb
+C:\Users\AMANDA\source\repos\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.genruntimeconfig.cache
+C:\Users\LUCAS\source\repos\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.csproj.AssemblyReference.cache
+C:\Users\LUCAS\source\repos\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.CadastroAluno.resources
+C:\Users\LUCAS\source\repos\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.MDIAcademia.resources
+C:\Users\LUCAS\source\repos\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.Properties.Resources.resources
+C:\Users\LUCAS\source\repos\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.csproj.GenerateResource.cache
+C:\Users\LUCAS\source\repos\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.AssemblyInfoInputs.cache
+C:\Users\LUCAS\source\repos\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.AssemblyInfo.cs
+C:\Users\LUCAS\source\repos\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.csproj.CoreCompileInputs.cache
+C:\Users\LUCAS\source\repos\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.dll
+C:\Users\LUCAS\source\repos\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.pdb
+C:\Users\LUCAS\source\repos\SistemaAcademia\SistemaAcademia\bin\Debug\netcoreapp3.1\SistemaAcademia.exe
+C:\Users\LUCAS\source\repos\SistemaAcademia\SistemaAcademia\bin\Debug\netcoreapp3.1\SistemaAcademia.deps.json
+C:\Users\LUCAS\source\repos\SistemaAcademia\SistemaAcademia\bin\Debug\netcoreapp3.1\SistemaAcademia.runtimeconfig.json
+C:\Users\LUCAS\source\repos\SistemaAcademia\SistemaAcademia\bin\Debug\netcoreapp3.1\SistemaAcademia.runtimeconfig.dev.json
+C:\Users\LUCAS\source\repos\SistemaAcademia\SistemaAcademia\bin\Debug\netcoreapp3.1\SistemaAcademia.dll
+C:\Users\LUCAS\source\repos\SistemaAcademia\SistemaAcademia\bin\Debug\netcoreapp3.1\SistemaAcademia.pdb
+C:\Users\LUCAS\source\repos\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.genruntimeconfig.cache
+C:\Users\AMANDA\source\repos\Cadastro Aluno\SistemaAcademia\SistemaAcademia\bin\Debug\netcoreapp3.1\SistemaAcademia.exe
+C:\Users\AMANDA\source\repos\Cadastro Aluno\SistemaAcademia\SistemaAcademia\bin\Debug\netcoreapp3.1\SistemaAcademia.deps.json
+C:\Users\AMANDA\source\repos\Cadastro Aluno\SistemaAcademia\SistemaAcademia\bin\Debug\netcoreapp3.1\SistemaAcademia.runtimeconfig.json
+C:\Users\AMANDA\source\repos\Cadastro Aluno\SistemaAcademia\SistemaAcademia\bin\Debug\netcoreapp3.1\SistemaAcademia.runtimeconfig.dev.json
+C:\Users\AMANDA\source\repos\Cadastro Aluno\SistemaAcademia\SistemaAcademia\bin\Debug\netcoreapp3.1\SistemaAcademia.dll
+C:\Users\AMANDA\source\repos\Cadastro Aluno\SistemaAcademia\SistemaAcademia\bin\Debug\netcoreapp3.1\SistemaAcademia.pdb
+C:\Users\AMANDA\source\repos\Cadastro Aluno\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.csproj.AssemblyReference.cache
+C:\Users\AMANDA\source\repos\Cadastro Aluno\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.CadastroAluno.resources
+C:\Users\AMANDA\source\repos\Cadastro Aluno\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.MDIAcademia.resources
+C:\Users\AMANDA\source\repos\Cadastro Aluno\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.Properties.Resources.resources
+C:\Users\AMANDA\source\repos\Cadastro Aluno\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.csproj.GenerateResource.cache
+C:\Users\AMANDA\source\repos\Cadastro Aluno\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.AssemblyInfoInputs.cache
+C:\Users\AMANDA\source\repos\Cadastro Aluno\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.AssemblyInfo.cs
+C:\Users\AMANDA\source\repos\Cadastro Aluno\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.csproj.CoreCompileInputs.cache
+C:\Users\AMANDA\source\repos\Cadastro Aluno\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.dll
+C:\Users\AMANDA\source\repos\Cadastro Aluno\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.pdb
+C:\Users\AMANDA\source\repos\Cadastro Aluno\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.genruntimeconfig.cache
