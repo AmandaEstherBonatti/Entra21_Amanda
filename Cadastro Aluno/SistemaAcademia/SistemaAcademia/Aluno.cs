@@ -4,9 +4,10 @@ using System.Text;
 
 namespace SistemaAcademia
 {
-    class Aluno : Pessoa
+    public class Aluno : Pessoa
     {
         public string Modalidade { get; set; }
+        public string Modalidadx { get; set; }
 
         public Aluno(
             string nome,

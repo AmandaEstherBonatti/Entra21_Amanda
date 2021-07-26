@@ -49,3 +49,5 @@ C:\Users\AMANDA\source\repos\Cadastro Aluno\SistemaAcademia\SistemaAcademia\obj\
 C:\Users\AMANDA\source\repos\Cadastro Aluno\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.dll
 C:\Users\AMANDA\source\repos\Cadastro Aluno\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.pdb
 C:\Users\AMANDA\source\repos\Cadastro Aluno\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.genruntimeconfig.cache
+C:\Users\AMANDA\source\repos\Cadastro Aluno\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.CadastroProfessor.resources
+C:\Users\AMANDA\source\repos\Cadastro Aluno\SistemaAcademia\SistemaAcademia\obj\Debug\netcoreapp3.1\SistemaAcademia.CadastroModalidade.resources

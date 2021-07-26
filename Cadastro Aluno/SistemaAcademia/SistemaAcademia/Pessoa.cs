@@ -4,10 +4,11 @@ using System.Text;
 
 namespace SistemaAcademia
 {
-    abstract class Pessoa
+    public abstract class Pessoa
     {
         public string Nome { get; set; }
         public string Telefone { get; set; }
         public string CPF { get; set; }
     }
+
 }

@@ -42,7 +42,7 @@ namespace SistemaAcademia
                 {
                     academia.AdicionarAluno(
                         txtNomeAluno.Text,
-                        txtModalidade.Text,
+                        (Modalidade)CMBModalidade.SelectedItem,
                         mtbCelularAluno.Text,
                         mtbCPFAluno.Text);
                     btnNovo_Click(sender, e);
@@ -51,10 +51,10 @@ namespace SistemaAcademia
                 {
                     if (lbxCadastros.SelectedIndex >= 0)
                     {
-                        academia.EditarAluno(
+                            academia.EditarAluno(
                             lbxCadastros.SelectedIndex,
                             txtNomeAluno.Text,
-                            txtModalidade.Text,
+                            (Modalidade)CMBModalidade.SelectedItem,
                             mtbCelularAluno.Text,
                             mtbCPFAluno.Text);
                     }
@@ -62,8 +62,8 @@ namespace SistemaAcademia
             }
             else
             {
-                MessageBox.Show(mensagemDeErro);
-                mensagemDeErro = "Os dados a seguir não foram digitados corretamente\npor favor digite-os:";
+                MessageBox.Show(mensagemDeErro, "Dados incompletos", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                mensagemDeErro = "Por favor digite-os:";
             }
             AtualizarListaCadastros();
         }
@@ -83,7 +83,7 @@ namespace SistemaAcademia
             if (lbxCadastros.SelectedIndex >= 0)
             {
                 txtNomeAluno.Text = academia.ListaAlunos[lbxCadastros.SelectedIndex].Nome;
-                txtModalidade.Text = academia.ListaAlunos[lbxCadastros.SelectedIndex].Modalidade;
+                CMBModalidade.SelectedItem = academia.ListaAlunos[lbxCadastros.SelectedIndex].Modalidade;
                 mtbCelularAluno.Text = academia.ListaAlunos[lbxCadastros.SelectedIndex].Telefone;
                 mtbCPFAluno.Text = academia.ListaAlunos[lbxCadastros.SelectedIndex].CPF;
                 novo = false;
@@ -104,7 +104,7 @@ namespace SistemaAcademia
         private void LimparDados()
         {
             txtNomeAluno.Clear();
-            txtModalidade.Clear();
+            CMBModalidade.SelectedItem = null;
             mtbCelularAluno.Clear();
             mtbCPFAluno.Clear();
         }
@@ -115,22 +115,17 @@ namespace SistemaAcademia
             if (String.IsNullOrEmpty(txtNomeAluno.Text))
             {
                 verificacao = false;
-                mensagemDeErro += "\n--> Nome.";
-            }
-            if (String.IsNullOrEmpty(txtModalidade.Text))
-            {
-                verificacao = false;
-                mensagemDeErro += "\n--> Modalidade.";
+                mensagemDeErro += "\n Nome.";
             }
             if (!mtbCelularAluno.MaskCompleted)
             {
                 verificacao = false;
-                mensagemDeErro += "\n--> Telefone.";
+                mensagemDeErro += "\n Telefone.";
             }
             if (!mtbCPFAluno.MaskCompleted)
             {
                 verificacao = false;
-                mensagemDeErro += "\n--> CPF.";
+                mensagemDeErro += "\n CPF.";
             }
             return verificacao;
         }
@@ -148,6 +143,72 @@ namespace SistemaAcademia
             {
                 btnSalvar.Enabled = true;
             }
+        }
+
+       
+        public void ComboBoxModalidade()
+        {
+            foreach (var M in academia.ListaModalidade )
+            {
+                CMBModalidade.Items.Add(M);
+            }
+        }
+
+        private void bntPagar_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Deseja efetuar pagamento?", "Confirmaçao", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                MessageBox.Show("Pagamento Confirmado!", "Confirmação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                transferindoDado();
+                
+
+            }
+            else
+            {
+                MessageBox.Show("Pagamento Cancelado!", "Confirmação", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        public void transferindoDado()
+        {
+            if(lbxCadastros.SelectedIndex >= 0)
+            {
+                lbxPagos.Items.Add(lbxCadastros.SelectedIndex);
+                lbxCadastros.Items.RemoveAt(lbxCadastros.SelectedIndex);
+            }
+        }
+
+        private void CMBModalidade_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(CMBModalidade.SelectedItem != null)
+            {
+                mensagemDeErro = "/n Modalidade!";
+                btnSalvar.Enabled = true;
+                txtTurno.Text = academia.ListaModalidade[CMBModalidade.SelectedIndex].Professor.Turno;
+                txtProfessor.Text = academia.ListaModalidade[CMBModalidade.SelectedIndex].Professor.Nome;
+                txtMensalidade.Text = academia.ListaModalidade[CMBModalidade.SelectedIndex].CalcularPreco().ToString();
+            
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mtbCelularAluno_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

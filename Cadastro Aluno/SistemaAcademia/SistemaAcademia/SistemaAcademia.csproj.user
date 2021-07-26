@@ -4,6 +4,12 @@
     <Compile Update="CadastroAluno.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="CadastroModalidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CadastroProfessor.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="MDIAcademia.cs">
       <SubType>Form</SubType>
     </Compile>

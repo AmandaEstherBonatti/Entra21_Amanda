@@ -33,13 +33,9 @@ namespace SistemaAcademia
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MDIAcademia));
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.professoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.horáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.modalidadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpMenu = new System.Windows.Forms.ToolStripMenuItem();
-            this.contentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.indexToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.searchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.bttnAluno = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -53,7 +49,7 @@ namespace SistemaAcademia
             this.menuStrip.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.professoresToolStripMenuItem,
-            this.horáriosToolStripMenuItem,
+            this.modalidadesToolStripMenuItem,
             this.helpMenu});
             this.menuStrip.Location = new System.Drawing.Point(0, 495);
             this.menuStrip.Name = "menuStrip";
@@ -61,64 +57,34 @@ namespace SistemaAcademia
             this.menuStrip.Size = new System.Drawing.Size(756, 24);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "MenuStrip";
+            this.menuStrip.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip_ItemClicked);
             // 
             // professoresToolStripMenuItem
             // 
             this.professoresToolStripMenuItem.Name = "professoresToolStripMenuItem";
             this.professoresToolStripMenuItem.Size = new System.Drawing.Size(79, 20);
             this.professoresToolStripMenuItem.Text = "Professores";
+            this.professoresToolStripMenuItem.Click += new System.EventHandler(this.professoresToolStripMenuItem_Click);
             // 
-            // horáriosToolStripMenuItem
+            // modalidadesToolStripMenuItem
             // 
-            this.horáriosToolStripMenuItem.Name = "horáriosToolStripMenuItem";
-            this.horáriosToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
-            this.horáriosToolStripMenuItem.Text = "Horários";
+            this.modalidadesToolStripMenuItem.Name = "modalidadesToolStripMenuItem";
+            this.modalidadesToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
+            this.modalidadesToolStripMenuItem.Text = "Modalidade";
+            this.modalidadesToolStripMenuItem.Click += new System.EventHandler(this.modalidadesToolStripMenuItem_Click);
             // 
             // helpMenu
             // 
             this.helpMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.contentsToolStripMenuItem,
-            this.indexToolStripMenuItem,
-            this.searchToolStripMenuItem,
-            this.toolStripSeparator8,
-            this.aboutToolStripMenuItem});
+            this.toolStripSeparator8});
             this.helpMenu.Name = "helpMenu";
             this.helpMenu.Size = new System.Drawing.Size(50, 20);
             this.helpMenu.Text = "&Ajuda";
             // 
-            // contentsToolStripMenuItem
-            // 
-            this.contentsToolStripMenuItem.Name = "contentsToolStripMenuItem";
-            this.contentsToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F1)));
-            this.contentsToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
-            this.contentsToolStripMenuItem.Text = "&Conteúdo";
-            // 
-            // indexToolStripMenuItem
-            // 
-            this.indexToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("indexToolStripMenuItem.Image")));
-            this.indexToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black;
-            this.indexToolStripMenuItem.Name = "indexToolStripMenuItem";
-            this.indexToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
-            this.indexToolStripMenuItem.Text = "&Índice";
-            // 
-            // searchToolStripMenuItem
-            // 
-            this.searchToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("searchToolStripMenuItem.Image")));
-            this.searchToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black;
-            this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
-            this.searchToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
-            this.searchToolStripMenuItem.Text = "&Procurar";
-            // 
             // toolStripSeparator8
             // 
             this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(170, 6);
-            // 
-            // aboutToolStripMenuItem
-            // 
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
-            this.aboutToolStripMenuItem.Text = "&Sobre ... ...";
+            this.toolStripSeparator8.Size = new System.Drawing.Size(57, 6);
             // 
             // bttnAluno
             // 
@@ -153,6 +119,7 @@ namespace SistemaAcademia
             this.pictureBox1.Size = new System.Drawing.Size(952, 494);
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // MDIAcademia
             // 
@@ -184,17 +151,13 @@ namespace SistemaAcademia
 
         private System.Windows.Forms.MenuStrip menuStrip;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
-        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpMenu;
-        private System.Windows.Forms.ToolStripMenuItem contentsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem indexToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem searchToolStripMenuItem;
         private System.Windows.Forms.ToolTip toolTip;
         private System.Windows.Forms.Button bttnAluno;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ToolStripMenuItem professoresToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem horáriosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem modalidadesToolStripMenuItem;
     }
 }
 
