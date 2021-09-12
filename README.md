@@ -1,2 +1,2 @@
 # Entra21_Amanda
-a
+CRUD de cadastro escolar e de academia
