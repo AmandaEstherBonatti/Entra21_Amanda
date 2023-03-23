@@ -1,2 +1,1 @@
-# Entra21_Amanda
-CRUD de cadastro escolar e de academia
+#Atividades e projetos realizados no curso Entra21 C#
